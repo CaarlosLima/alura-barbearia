@@ -1,5 +1,10 @@
+.conteudoContato{
+  padding: 0 0 20px;
+}
+
 form {
-  margin: 40px 0;
+  text-align: center;
+  padding: 20px 0;
 }
 
 form label, legend{
@@ -10,7 +15,7 @@ form label, legend{
 
 .inputPadrao{
   display: block;
-  margin: 0 0 10px;
+  margin: 0 auto 10px;
   padding: 10px 20px;
   width: 50%;
 }
@@ -38,7 +43,7 @@ form label, legend{
 }
 
 table{
-  margin: 20px 0 40px;
+  margin: 0 auto;
 }
 
 thead{

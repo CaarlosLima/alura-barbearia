@@ -5,7 +5,8 @@ header {
 
 .headerBox{
   position: relative;
-  width: 940px;
+  max-width: 940px;
+  width: auto;
   margin: 0 auto;
 }
 
@@ -13,6 +14,7 @@ nav{
 position: absolute;
 top: 110px;
 right: 0;
+text-align: center;
 }
 
 nav li{
@@ -34,9 +36,14 @@ nav a:hover{
   text-decoration: underline;
 }
 
+main{
+  width: 100%;
+  background: linear-gradient(#FEFEFE 33%,#888888 66%);
+}
+
 footer{
   text-align: center;
-  background-image: url(images/bg.jpg);
+  background-image: url(../images/bg.jpg);
   padding: 40px 0;
 }
 
@@ -46,10 +53,7 @@ footer{
   margin-top: 20px;
 }
 
-@media screen and (max-width: 480px){
-	.headerBox{
-		width: auto;
-	}
+@media screen and (max-width: 600px){
 
 	h1 {
 		text-align: center;
