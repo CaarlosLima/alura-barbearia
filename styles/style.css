@@ -1,0 +1,61 @@
+header {
+  background-color: #bbbbbb;
+  padding: 20px;
+}
+
+.headerBox{
+  position: relative;
+  width: 940px;
+  margin: 0 auto;
+}
+
+nav{
+position: absolute;
+top: 110px;
+right: 0;
+}
+
+nav li{
+  display: inline;
+  margin: 0 0 0 15px;
+}
+
+nav a{
+  text-transform: uppercase;
+  color: black ;
+  font-weight: bold;
+  font-size: 22px;
+  text-decoration: none;
+  text-shadow: 2px 2px 6px black;
+}
+
+nav a:hover{
+  color: #C87C19;
+  text-decoration: underline;
+}
+
+footer{
+  text-align: center;
+  background-image: url(images/bg.jpg);
+  padding: 40px 0;
+}
+
+.copyright{
+  color: #FFFFFF;
+  font-size: 13px;
+  margin-top: 20px;
+}
+
+@media screen and (max-width: 480px){
+	.headerBox{
+		width: auto;
+	}
+
+	h1 {
+		text-align: center;
+	}
+
+	nav {
+		position: static;
+	}
+}
